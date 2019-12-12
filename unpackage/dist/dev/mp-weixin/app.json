@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/history/history",
+    "pages/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "随心翻译",
+    "navigationBarBackgroundColor": "#fff8f7",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#177cb0",
+    "borderStyle": "black",
+    "backgroundColor": "#fff8f7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "static/tabbarIcon/index-selected.png",
+        "iconPath": "static/tabbarIcon/index.png",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "selectedIconPath": "static/tabbarIcon/mine-selected.png",
+        "iconPath": "static/tabbarIcon/mine.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap43.json"
+}
